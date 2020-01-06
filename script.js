@@ -1,6 +1,6 @@
 ﻿$(document).ready(function() {
-  const apiRoot = 'http://localhost:8080/v1/task/';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  const apiRoot = 'https://frozen-caverns-85626.herokuapp.com/v1/trello/';
+  const trelloApiRoot = 'https://frozen-caverns-85626.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
