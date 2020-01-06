@@ -1,5 +1,5 @@
 ﻿$(document).ready(function() {
-  const apiRoot = 'https://frozen-caverns-85626.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://quiet-falls-61093.herokuapp.com/v1/task/';
   const trelloApiRoot = 'https://frozen-caverns-85626.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
@@ -63,7 +63,7 @@
   }
 
   function getAllTasks() {
-    const requestUrl = apiRoot + 'getTrelloBoards';
+    const requestUrl = apiRoot + 'getTasks';
 
     $.ajax({
       url: requestUrl,
