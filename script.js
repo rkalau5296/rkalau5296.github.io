@@ -63,7 +63,7 @@
   }
 
   function getAllTasks() {
-    const requestUrl = apiRoot + 'getTasks';
+    const requestUrl = apiRoot + 'getTrelloBoards';
 
     $.ajax({
       url: requestUrl,
